@@ -6,7 +6,7 @@ const Hero = (req, res) => {
     } = req;
 
     if (!tips[hero]) {
-        return res.status(404).json({ message: 'Hero tip not available.'})
+        return res.status(404).json({ error: 'Hero tip not available.'})
     }
     let heroData = tips[hero];
     let tip = heroData.tips[(Math.floor(Math.random() * heroData.tips.length))];

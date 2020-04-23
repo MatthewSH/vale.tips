@@ -9,12 +9,14 @@ export const tips: { [index: string]: any } = {
             {
                 'author': authors.vale,
                 'id': '0-crosshair',
+                'title': 'Crosshair Opacity',
                 'short': 'Turn your crosshair opacity to 0.',
                 'long': 'dnshfksdfkdlsfkjdskjfjkldskjlflkjdjlkfljdskjflkjdsjkfjdksfkjlsdlkjfjkldkjlfjklsdjflksjlkdfjkdskjlf'
             },
             {
                 'author': authors.vale,
                 'id': 'enemy-name',
+                'title': 'Anti-Name',
                 'short': 'Nade the foes',
                 'long': 'Nade the foes like they were hoes.'
             }

@@ -5,12 +5,19 @@ export const tips = {
         meta: {
             display_name: 'Ana'
         },
-        tips: {
-            '0-crosshair': {
+        tips: [
+            {
                 'author': authors.vale,
+                'id': '0-crosshair',
                 'short': 'Turn your crosshair opacity to 0.',
                 'long': 'dnshfksdfkdlsfkjdskjfjkldskjlflkjdjlkfljdskjflkjdsjkfjdksfkjlsdlkjfjkldkjlfjklsdjflksjlkdfjkdskjlf'
+            },
+            {
+                'author': authors.vale,
+                'id': 'enemy-name',
+                'short': 'Nade the foes',
+                'long': 'Nade the foes like they were hoes.'
             }
-        }
+        ]
     }
 }

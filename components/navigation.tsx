@@ -1,5 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { tips } from '../data/tips/tips';
 
 const Navigation = () => (
     <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
@@ -17,6 +19,11 @@ const Navigation = () => (
         <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='mr-auto'>
                 <Nav.Link href='/'>Home</Nav.Link>
+                <NavDropdown title='Heroes' id='basic-nav-dropdown'>
+                    {Object.keys(tips).map((key: string) => (
+                        <NavDropdown.Item href={`/hero/${key}`}>{tips[key].meta.display_name}</NavDropdown.Item>
+                    ))}
+                </NavDropdown>
             </Nav>
             <Nav>
                 <Nav.Link href='' target='_blank'>Twitch</Nav.Link>

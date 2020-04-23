@@ -3,7 +3,8 @@ import { authors } from './base';
 export const tips: { [index: string]: any } = {
     ana: {
         meta: {
-            display_name: 'Ana'
+            display_name: 'Ana',
+            profile_image: 'https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3d/Icon-Ana.png?version=4009fa538a26b03d6ff020f3402454b0'
         },
         tips: [
             {

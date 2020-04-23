@@ -21,7 +21,7 @@ const Hero = () => {
     }
 
     return (
-        <Layout title='Hero'>
+        <Layout title={hero.meta.display_name}>
             <Row>
                 <Col md={3} sm={12}>
                     <Card>

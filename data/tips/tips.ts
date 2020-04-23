@@ -1,6 +1,6 @@
 import { authors } from './base';
 
-export const tips = {
+export const tips: { [index: string]: any } = {
     ana: {
         meta: {
             display_name: 'Ana'
